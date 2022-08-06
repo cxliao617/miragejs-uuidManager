@@ -1,0 +1,31 @@
+{
+  "name": "miragejs-uuidmanager",
+  "version": "1.0.0",
+  "description": "miragejs custom uuid identityManager",
+  "main": "dist/UuidManager",
+  "types":"dist/UUidManager",
+  "files":[
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-cxliao617:cxliao617/miragejs-uuidManager.git"
+  },
+  "keywords": [
+    "miragejs"
+  ],
+  "author": "cxliao617",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2"
+  }
+}
