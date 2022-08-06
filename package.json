@@ -1,10 +1,10 @@
 {
   "name": "miragejs-uuidmanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "miragejs custom uuid identityManager",
   "main": "dist/UuidManager",
-  "types":"dist/UUidManager",
-  "files":[
+  "types": "dist/UUidManager",
+  "files": [
     "dist"
   ],
   "scripts": {
