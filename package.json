@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-cxliao617:cxliao617/miragejs-uuidManager.git"
+    "url": "git@github.com:cxliao617/miragejs-uuidManager.git"
   },
   "keywords": [
     "miragejs"
