@@ -1,8 +1,3 @@
-# miragejs-uuidManager
-miragejs custom uuid identityManager
-
-## Custom Identity Manager into UUID v4 format
-```typescript
 import {v4} from 'uuid'
 
 export default class UuidManager{
@@ -34,21 +29,3 @@ export default class UuidManager{
         this.ids.clear()
     }
 }
-```
-
-## Usage
-```typescript
-import {createServer,Factory,Model,Serializer} from 'miragejs'
-
-import UuidManager from 'miragejs-uuidmanager'
-
-export function MockServer({environment = 'development'}){
-    return createServer({
-        environment,
-        identityManagers: {
-            todo: UuidManager,
-        } as any,
-        ...
-    })
-}
-```
